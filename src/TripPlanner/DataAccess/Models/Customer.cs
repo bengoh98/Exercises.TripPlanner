@@ -15,6 +15,6 @@ namespace TripPlanner.DataAccess.Models
         public string Suburb { get; set; }
         public string State { get; set; }
         public string Postcode { get; set; }
-        public List<Package> Package { get; set; }
+        public List<Package> Packages { get; set; }
     }
 }
