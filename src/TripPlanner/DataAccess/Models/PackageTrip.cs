@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 
 namespace TripPlanner.DataAccess.Models
 {
-    public class Package
+    public class PackageTrip
     {
         public int Id { get; set; }
-        public int CustomerId { get; set; }
-        public List<PackageTrip> PackageTrips { get; set; }
+        public int PackageId { get; set; }
+        public int TripId { get; set; }
+        public double TripCost { get; set; }
     }
 }
